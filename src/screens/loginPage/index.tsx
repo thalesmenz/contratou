@@ -9,7 +9,7 @@ export default function LoginPage() {
                 <View>
                    <Text style={{fontSize: 16, marginLeft: 12}}>Email</Text>
                    <TextInput 
-                    value={Text}
+                    
                     placeholder='Email'
                     style={styles.InputStyle}
                     />
