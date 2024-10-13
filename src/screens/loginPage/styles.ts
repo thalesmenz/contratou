@@ -25,7 +25,7 @@ export const styles = StyleSheet.create ({
 
     ButtonLogin: {
         backgroundColor: "#5992E8",
-        width: 410,
+        width: 490,
         height: 61,
         borderRadius: 20,
         alignItems: "center",

@@ -4,12 +4,13 @@ import LoginPage from './src/screens/loginPage';
 import FilterPage from './src/screens/filterPage';
 import SignUpPage from './src/screens/SignUpPage';
 import PathPage from './src/screens/pathPage';
+import JobPage from './src/screens/jobPage';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-        <PathPage />
+        <JobPage />
     </View>
   );
 }
