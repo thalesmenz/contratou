@@ -4,8 +4,11 @@ import { useState } from 'react';
 import Entypo from 'react-native-vector-icons/Entypo';
 import Feather from 'react-native-vector-icons/Feather';
 import AntDesign from 'react-native-vector-icons/AntDesign';
+import { NavigationProp, useNavigation } from '@react-navigation/native'
+import { RootStackParamList } from '../../routes/Types';
 
 export default function LoginPage() {
+  const navigation = useNavigation<NavigationProp<RootStackParamList>>();
 
   const [visibility, setVisibility] = useState<Record<number, boolean>>({});
 
@@ -80,7 +83,10 @@ export default function LoginPage() {
               <View style={styles.SubCategoriesViewFather}>
                 {profissao.subcategorias.map((subcategoria, subIndex) => (
                   <View key={subIndex} style={styles.SubCategoriesViewSon}>
-                    <TouchableOpacity style={styles.TouchableOpacitySubCategorie}>
+                    <TouchableOpacity 
+                      style={styles.TouchableOpacitySubCategorie}
+                      onPress={() => navigation.navigate("WorkersList")}
+                    >
                       <Text style={styles.SubCategoriesText}>{subcategoria}</Text>
                     </TouchableOpacity>
                   </View>

@@ -1,6 +1,13 @@
 import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "white",
+    },
+
     ContratouH1: {
         fontSize: 50,
         marginBottom: 10,
@@ -17,16 +24,12 @@ export const styles = StyleSheet.create({
     },
 
     TextView: {
-        position: "absolute",
-        bottom: 300,
-        left: -165,
-        alignItems: "center"
+        alignItems: "center",
+        marginBottom: 100,
     },
 
     InputsView: {
-        position: "absolute",
-        left: -245,
-
+        marginBottom: 100,
     },
 
     InputElement: {
@@ -35,9 +38,7 @@ export const styles = StyleSheet.create({
         borderWidth: 2,
         borderColor: "#6B6464",
         borderRadius: 20,
-        paddingLeft: 15,
-        marginTop: 30,
-        top: -200,
+        marginTop: 20,
     },
 
     ButtonAccess: {
@@ -57,7 +58,17 @@ export const styles = StyleSheet.create({
 
     ViewButtonAccess: {
         position: "absolute",
-        top: 490,
-        left: -245,
-    }
+        top: 830,
+        alignItems: "center"
+    },
+
+    InputStyle: {
+        marginTop: 20,
+        width: 490,
+        height: 61,
+        borderWidth: 2,
+        borderColor: "#6B6464",
+        borderRadius: 20,
+        paddingLeft: 15,
+    },
 })

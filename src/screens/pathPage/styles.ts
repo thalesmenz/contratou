@@ -5,7 +5,6 @@ export const styles = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor: "#f0f0f0" 
     },
 
     ViewNavbar: {
@@ -17,20 +16,22 @@ export const styles = StyleSheet.create({
         padding: 5,
         paddingRight: 20,
         paddingLeft: 20,
-        position: "absolute", 
         top: 0,
+        height: 80,
+        position: "absolute",
+        marginTop: 40,
     },
 
-    icon: {
-        color: "white",
-        fontSize: 24,
+    IconStyle: {
+        color: "white"
     },
 
     textPath: {
         fontSize: 42,
         fontWeight: "bold",
         color: "white",
-        marginBottom: 10,
+        position: "absolute",
+        marginTop: 70,
     },
 
     secondTextPath: {
@@ -45,5 +46,28 @@ export const styles = StyleSheet.create({
         fontWeight: "bold",
         color: "white",
         marginBottom: 10,
+    },
+
+    PathCliente: {
+        width: 480,
+        height: 200,
+        borderWidth: 2,
+        borderColor: "black",
+    },
+
+    PathWorker: {
+        width: 480,
+        height: 200,
+        borderWidth: 2,
+        borderColor: "black",
+        marginTop: 50,
+    },
+
+    ShadowView: {
+        width: 480,
+        height: 200,
+        backgroundColor: "black", 
+        opacity: 0.5,
+        position: "absolute",
     },
 });

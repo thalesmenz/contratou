@@ -1,6 +1,17 @@
 import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create ({
+    container: {
+        flex: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "white",
+    },
+
+    SecondContainer: {
+        alignItems: "center",
+    },
+
     LoginText: { 
         fontSize: 35,
         marginBottom: 45,
@@ -8,7 +19,7 @@ export const styles = StyleSheet.create ({
 
     InputStyle: {
         marginTop: 5,
-        width: 410,
+        width: 490,
         height: 61,
         borderWidth: 2,
         borderColor: "#6B6464",
@@ -18,7 +29,7 @@ export const styles = StyleSheet.create ({
 
     ButtonPassword: {
         color: "#5992E8",
-        marginLeft: 240,
+        marginLeft: 310,
         marginTop: 20,
         fontSize: 17,
     },

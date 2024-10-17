@@ -1,8 +1,15 @@
 import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create ({
-    Container: {
+    container: {
+        flex: 1,
         alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "white",
+    },
+
+    SecondContainer: {
+        alignItems: "center"
     },
 
     LabelInput: {
