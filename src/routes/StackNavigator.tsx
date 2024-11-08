@@ -6,7 +6,7 @@ import SignUpPage from "../screens/SignUpPage";
 import PathPage from "../screens/pathPage";
 import JobPage from "../screens/jobPage";
 import WorkersPage from "../screens/WorkersPage";
-
+import ProfileWorker from "../screens/profileWorkerPage"
 
 const Stack = createStackNavigator()
 
@@ -20,6 +20,7 @@ export default function StackNavigator() {
         <Stack.Screen name="PathJob" component={PathPage} options={{ headerShown: false }} />
         <Stack.Screen name="Job" component={JobPage} options={{ headerShown: false }} />
         <Stack.Screen name="WorkersList" component={WorkersPage} options={{ headerShown: false }} />
+        <Stack.Screen name="ProfileWorker" component={ProfileWorker} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -5,5 +5,6 @@ export type RootStackParamList = {
     PathJob: undefined;
     Job: undefined;
     WorkersList: undefined;
+    ProfileWorker: undefined;
   };
   

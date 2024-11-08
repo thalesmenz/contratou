@@ -83,7 +83,10 @@ export default function WorkersPage() {
                     
                     
                     <View style={styles.DetailsViewFather}>
-                        <TouchableOpacity style={styles.DetailsButton}>
+                        <TouchableOpacity 
+                         style={styles.DetailsButton}
+                         onPress={() => navigation.navigate("ProfileWorker")}
+                        >
                             <Text style={styles.TextDetailsButton}>DETALHES</Text>
                             
                         </TouchableOpacity>

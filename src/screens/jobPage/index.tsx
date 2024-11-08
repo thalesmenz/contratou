@@ -18,7 +18,7 @@ export default function LoginPage() {
       subcategorias: ["Engenheiro Civil", "Engenheiro Elétrico", "Engenheiro Mecânico", "Engenheiro de Software", "Engenheiro Ambiental"],
       image: require("../../components/imagenstemporarias/engenheiro.png")
     },
-    {
+    { 
       nome: "Médico",
       subcategorias: ["Cardiologista", "Dermatologista", "Pediatra", "Neurologista", "Ortopedista"],
       image: require("../../components/imagenstemporarias/medico.webp")
